@@ -1,0 +1,48 @@
+.Maincontainer{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(
+      skyblue,
+      pink,
+      white
+    );
+    text-align: center;
+  }
+  input{
+    height: 40px;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: larger;
+  }
+  label{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  button{
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: larger;font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+  }
+  #smallContainer{
+    margin-top: 10px;
+    border: 2px solid black;
+    display: flex;
+    background-color: rgb(250, 123, 145);
+    flex-wrap: wrap;
+    
+  }
+  #items{
+    border: 2px solid black;
+    width: 500px;
+    height: 60px;
+    color: white;
+    background-color: rgb(56, 56, 235);
+    font-size: larger;
+    font-weight: bolder;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 15px;
+  }
